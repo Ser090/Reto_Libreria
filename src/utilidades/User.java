@@ -1,12 +1,13 @@
 package utilidades;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author Urko
  */
-public class User {
+public class User implements Serializable {
 
     private Integer resUserId;
 

@@ -1,10 +1,12 @@
 package utilidades;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Urko
  */
-public enum MessageType {
+public enum MessageType implements Serializable {
 
     SIGN_IN_REQUEST,
     SIGN_UP_REQUEST,

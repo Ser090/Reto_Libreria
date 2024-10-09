@@ -1,10 +1,12 @@
 package utilidades;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Urko
  */
-public class Message {
+public class Message implements Serializable {
 
     private MessageType type;
     private Object object;
