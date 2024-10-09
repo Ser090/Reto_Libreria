@@ -15,6 +15,9 @@ public enum MessageType {
     BAD_RESPONSE,
     LOGIN_OK,
     LOGIN_EXIST_ERROR,
-    SQL_ERROR
+    SQL_ERROR,
+    COUNTRIES_OK,
+    COUNTRIES_REQUEST,
+    COUNTRIES_ERROR
 
 }
