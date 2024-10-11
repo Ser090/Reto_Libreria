@@ -1,7 +1,6 @@
 package utilidades;
 
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  *
@@ -15,19 +14,24 @@ public class User implements Serializable {
 
     private String pass;
 
-    private String nombre;
+    private String name;
 
-    private String apellido;
+    private String street;
 
-    private Integer telefono;
+    private String zip;
 
-    private String localidad;
-
-    private String provincia;
-
-    private Date fechaNacimiento;
+    private String city;
 
     public User() {
+    }
+
+    public User(Integer resUserId, String login, String pass, String street, String zip, String city) {
+        this.resUserId = resUserId;
+        this.login = login;
+        this.pass = pass;
+        this.street = street;
+        this.zip = zip;
+        this.city = city;
     }
 
     public Integer getResUserId() {
@@ -54,52 +58,35 @@ public class User implements Serializable {
         this.pass = pass;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getStreet() {
+        return street;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
-    public Integer getTelefono() {
-        return telefono;
+    public String getZip() {
+        return zip;
     }
 
-    public void setTelefono(Integer telefono) {
-        this.telefono = telefono;
+    public void setZip(String zip) {
+        this.zip = zip;
     }
 
-    public String getLocalidad() {
-        return localidad;
+    public String getCity() {
+        return city;
     }
 
-    public void setLocalidad(String localidad) {
-        this.localidad = localidad;
+    public void setCity(String city) {
+        this.city = city;
     }
-
-    public String getProvincia() {
-        return provincia;
-    }
-
-    public void setProvincia(String provincia) {
-        this.provincia = provincia;
-    }
-
-    public Date getFechaNacimiento() {
-        return fechaNacimiento;
-    }
-
-    public void setFechaNacimiento(Date fechaNacimiento) {
-        this.fechaNacimiento = fechaNacimiento;
-    }
-
 }
