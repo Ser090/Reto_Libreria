@@ -22,16 +22,9 @@ public class User implements Serializable {
 
     private String city;
 
-    public User() {
-    }
+    private Boolean active;
 
-    public User(Integer resUserId, String login, String pass, String street, String zip, String city) {
-        this.resUserId = resUserId;
-        this.login = login;
-        this.pass = pass;
-        this.street = street;
-        this.zip = zip;
-        this.city = city;
+    public User() {
     }
 
     public Integer getResUserId() {
@@ -89,4 +82,13 @@ public class User implements Serializable {
     public void setCity(String city) {
         this.city = city;
     }
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
+    }
+
 }
