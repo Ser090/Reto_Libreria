@@ -27,6 +27,17 @@ public class User implements Serializable {
     public User() {
     }
 
+    public User(String login, String pass, String name, String street, String zip, String city, Boolean active) {
+        this.login = login;
+        this.pass = pass;
+        this.name = name;
+        this.street = street;
+        this.zip = zip;
+        this.city = city;
+        this.active = active;
+    }
+
+
     public Integer getResUserId() {
         return resUserId;
     }
