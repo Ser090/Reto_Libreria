@@ -10,5 +10,4 @@ public interface Signable {
 
     public Message signIn(User user);
 
-    public Message getCountries();
 }
