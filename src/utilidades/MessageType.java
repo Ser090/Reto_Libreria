@@ -16,6 +16,7 @@ public enum MessageType implements Serializable {
     BAD_RESPONSE,
     LOGIN_OK,
     LOGIN_EXIST_ERROR,
-    SQL_ERROR
+    SQL_ERROR,
+    CONNECTION_ERROR
 
 }
