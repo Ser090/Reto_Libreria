@@ -25,15 +25,6 @@ import java.io.Serializable;
  * Este enum facilita la comunicación y el control de errores en el sistema de
  * autenticación.
  *
- * @see Serializable
- *
- * Ejemplo de uso:  <pre>
- * MessageType messageType = MessageType.SIGN_IN_REQUEST;
- * if (messageType == MessageType.OK_RESPONSE) {
- *     System.out.println("Operación exitosa.");
- * }
- * </pre>
- *
  * @author Urko
  */
 public enum MessageType implements Serializable {

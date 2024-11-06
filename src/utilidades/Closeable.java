@@ -13,17 +13,6 @@ package utilidades;
  * Métodos: - `close()`: método sin parámetros que realiza el cierre de la
  * instancia.
  *
- * Ejemplo de implementación:
- *
- * <pre>
- * public class ConexionBD implements Closeable {
- *
- *     @Override
- *     public void close() {
- *         // Lógica para cerrar la conexión a la base de datos
- *     }
- * }
- * </pre>
  *
  * @author Sergio
  */

@@ -12,24 +12,6 @@ package utilidades;
  * Métodos: - `signUp(User user)`: permite registrar un nuevo usuario en el
  * sistema. - `signIn(User user)`: permite autenticar un usuario ya registrado.
  *
- * Ejemplo de implementación:
- *
- * <pre>
- * public class Authenticator implements Signable {
- *
- *     public Message signUp(User user) {
- *         // Lógica de registro
- *     }
- *
- *     public Message signIn(User user) {
- *         // Lógica de inicio de sesión
- *     }
- * }
- * </pre>
- *
- * @see User
- * @see Message
- *
  * @author Urko
  */
 public interface Signable {

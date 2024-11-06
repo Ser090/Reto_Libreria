@@ -22,28 +22,7 @@ import java.io.Serializable;
  * - `getObject()`: obtiene el objeto asociado al mensaje. - `setObject(Object
  * object)`: establece el objeto asociado al mensaje.
  *
- * Ejemplo de uso:
- *
- * <pre>
- * Message mensaje = new Message(MessageType.SIGN_IN_REQUEST, usuario);
- * if (mensaje.getType() == MessageType.OK_RESPONSE) {
- *     System.out.println("Operación realizada con éxito.");
- * }
- * </pre>
- *
- * @see MessageType
- * @see Serializable
- *
- * Nota: Al ser serializable, la clase `Message` permite la transmisión segura
- * de sus datos a través de la red o su almacenamiento en disco.
- *
- * ¡Importante! Al utilizar `object`, asegúrate de manejar el tipo de dato
- * correctamente para evitar errores de tipo o de conversión.
- *
- * @param type tipo de mensaje
- * @param object objeto asociado al mensaje
- *
- * @autor Urko
+ * @author Urko
  */
 public class Message implements Serializable {
 

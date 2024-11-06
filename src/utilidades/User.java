@@ -23,17 +23,6 @@ import java.io.Serializable;
  * `resUserId`. - Métodos `get` y `set` para acceder y modificar cada uno de los
  * atributos.
  *
- * Ejemplo de uso:
- *
- * <pre>
- * User usuario = new User("juan123", "password123", "Juan Pérez", "Calle Falsa 123", "28001", "Madrid", true);
- * usuario.setCity("Barcelona");
- * String ciudad = usuario.getCity();
- * </pre>
- *
- * ¡Ojo! Los datos sensibles como la contraseña (`pass`) deben manejarse con
- * cuidado y preferiblemente deben encriptarse antes de almacenarse.
- *
  * @author Urko
  */
 public class User implements Serializable {
