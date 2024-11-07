@@ -25,7 +25,7 @@ import java.io.Serializable;
  * Este enum facilita la comunicación y el control de errores en el sistema de
  * autenticación.
  *
- * @autor Urko
+ * @author Urko
  */
 public enum MessageType implements Serializable {
 
