@@ -32,4 +32,6 @@ public interface Signable {
      * @return un objeto Message con el resultado de la autenticación
      */
     public Message signIn(User user);
+
+    public Message actualizar(User user);
 }

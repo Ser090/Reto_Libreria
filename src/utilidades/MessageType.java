@@ -36,11 +36,11 @@ public enum MessageType implements Serializable {
     /**
      * Solicitud para registrarse.
      */
-    SIGN_UP_REQUEST,
+    SIGN_UP_REQUEST, ACTUALIZAR_REQUEST,
     /**
      * Respuesta indicando que la operación fue exitosa.
      */
-    OK_RESPONSE,
+    OK_RESPONSE, OK_ACTUALIZAR,
     /**
      * Error durante el inicio de sesión.
      */
