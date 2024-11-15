@@ -76,5 +76,8 @@ public enum MessageType implements Serializable {
     /**
      * El usuario está inactivo.
      */
-    NON_ACTIVE
+    NON_ACTIVE,
+    GET_USER,
+    GET_OK,
+    GET_FAIL
 }
